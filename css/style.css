@@ -316,11 +316,46 @@ a {
 
 @media (min-width: 600px) {
 
-   
-
    header {
       height: 45vh;
    }
 
-  
+   .about {
+      padding-left: 2%;
+      padding-right: 2%;
+   }
+
+   .about aside {
+      width: 40%;
+   }
+
+   .about > article {
+      width: 100%;
+      justify-content: space-between;
+   }
+
+   .about > section {
+      flex-direction: row;
+      justify-content: space-between;
+      column-gap: 2vh;
+   }
+
+   .about a {
+      width: 45%;
+      padding: 2%;
+   }
+
+   .about p {
+      font-size: 16px;
+   }
+
+   .about  blockquote,
+   .about q,
+   .about cite {
+      padding-left: 2%;
+   }
+
+   .about q {
+      font-size: 16px;
+   }
 }
