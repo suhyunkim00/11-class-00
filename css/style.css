@@ -316,11 +316,46 @@ a {
 
 @media (min-width: 600px) {
 
-
    header {
       height: 45vh;
    }
 
+   footer > article {
+      padding-bottom: 2vh;
+   }
+
+   footer > section {
+      padding: 2%;
+      flex-direction: row;
+      justify-content: space-between;
+   }
+
+   footer,
+   footer > article > article,
+   footer > article > section {
+      row-gap: 2vh;
+   }
+
+   footer > article > section {
+      column-gap: 0.5vh;
+   }
+
+   footer h3 {
+      font-size: 20px;
+   }
+
+   footer aside {
+      row-gap: 1vh;
+   }
+
+   footer a {
+      width: 3vh;
+      height: 3vh;
+   }
+
+   form {
+      justify-content: flex-end;
+   }
 
    .features {
       align-items: center;
@@ -387,4 +422,6 @@ a {
    .about q {
       font-size: 16px;
    }
+
+   
 }
