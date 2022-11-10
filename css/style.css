@@ -487,5 +487,59 @@ a {
       height: 60vh;
    }
 
-   
+   footer {
+      align-items: center;
+   }
+
+   footer > article {
+      width: 70%;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 3%;
+   }
+
+   footer > section {
+      width: 100%;
+   }
+
+   .features {
+      row-gap: 0;
+      padding-top: 2vh;
+   }
+
+   .features > blockquote {
+      padding-top: 2%;
+      padding-bottom: 2%;
+   }
+
+   .features > article {
+      width: 70%;
+   }
+
+   .features a {
+      padding: 2%;
+      justify-content: space-evenly;
+      height: 30vh;
+   }
+
+   .features i {
+      font-size: 60px;
+   }
+
+   .features a:hover {
+      background-color: var(--darkerBlack);
+      transition: .3s;
+   }
+
+   .features a:hover > i {
+      color: white;
+   }
+
+   .features a:hover h3 {
+      color: var(--defaultColor);
+   }
+
+   .features a:hover > p {
+      color: var(--darkerGray);
+   }
 }
