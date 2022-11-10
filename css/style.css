@@ -472,8 +472,20 @@ a {
 }
 
 @media (min-width: 1000px) {
+
+   nav {
+      justify-content: space-evenly;
+   }
+
+   nav > ul {
+      width: 40%;
+      padding-top: 0;
+      align-items: center;
+   }
    
    header {
       height: 60vh;
    }
+
+   
 }
