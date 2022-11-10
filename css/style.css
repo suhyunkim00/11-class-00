@@ -316,8 +316,37 @@ a {
 
 @media (min-width: 600px) {
 
+
    header {
       height: 45vh;
+   }
+
+
+   .features {
+      align-items: center;
+      padding-top: 1vh;
+   }
+
+   .features > blockquote {
+      width: 80%;
+      padding-left: 10%;
+      padding-right: 10%;
+   }
+
+   .features > article {
+      flex-direction: row;
+      justify-content: space-between;
+      width: 96%;
+      padding: 0;
+   }
+
+   .features a{
+      width: 24%;
+      text-align: center;
+   }
+
+   .features h3 {
+      width: 70%;
    }
 
    .about {
