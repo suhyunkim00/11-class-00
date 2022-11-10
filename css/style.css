@@ -313,3 +313,14 @@ a {
    }
    /* ABOUT END */
 }
+
+@media (min-width: 600px) {
+
+   
+
+   header {
+      height: 45vh;
+   }
+
+  
+}
